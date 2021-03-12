@@ -1,7 +1,11 @@
 @import 'variables';
+@import 'header';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body {
-  background-color: $favColor;
+  background-image: url(../images/background_image_white.jpg);
+}
+p {
+  font-size: 100px;
 }
