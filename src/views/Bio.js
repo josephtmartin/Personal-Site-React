@@ -39,7 +39,7 @@ export default class Bio extends Component {
   render() {
     return (
       <div>
-        <h1 className='d-flex justify-content-center mt-3'>Welcome To Know The Network!</h1>
+        <h1 className='d-flex justify-content-center mt-3'>Bio</h1>
         {/* <div className='d-flex flex-wrap justify-content-center container'>{renderThings()}</div> */}
       </div>
     );

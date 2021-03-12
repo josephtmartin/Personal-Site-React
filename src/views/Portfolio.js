@@ -37,14 +37,14 @@ export default class Portfolio extends Component {
   // };
 
   render() {
-    const { shows } = this.state;
-    const renderProjects = () => (
-      shows.map((show) => <ProjectCard key={show.id} show={show} />)
-    );
+    // const { shows } = this.state;
+    // const renderProjects = () => (
+    //   shows.map((show) => <ProjectCard key={show.id} show={show} />)
+    // );
     return (
       <div>
-        <h1 className='d-flex justify-content-center mt-3'>Welcome To Know The Network!</h1>
-        <div className='d-flex flex-wrap justify-content-center container'>{renderProjects()}</div>
+        <h1 className='d-flex justify-content-center mt-3'>Portfolio</h1>
+        {/* <div className='d-flex flex-wrap justify-content-center container'>{renderProjects()}</div> */}
       </div>
     );
   }
