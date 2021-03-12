@@ -1,15 +1,23 @@
 import React from 'react';
 import './App.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
+import fbConnection from '../helpers/data/connection';
 
-class App extends React.Component {
+import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+import Routes from '../helpers/Routes';
+
+fbConnection();
+export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>INSIDE APP COMPONENT</h2>
-        <button className="btn btn-info">I am a button</button>
+        <Router>
+          <Header/>
+          <Navbar/>
+          <Routes/>
+        </Router>
       </div>
     );
   }
 }
-
-export default App;
