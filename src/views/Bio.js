@@ -15,6 +15,10 @@ import npm from '../images/npm.png';
 import reactpng from '../images/react.png';
 import sass from '../images/sass.png';
 import vscode from '../images/vscode.png';
+import csharp from '../images/csharp.png';
+import dotnet from '../images/dotnet.png';
+import tsql from '../images/tsql.png';
+import splatter from '../images/splatter.png';
 
 export default class Bio extends Component {
   render() {
@@ -22,21 +26,22 @@ export default class Bio extends Component {
       <>
         <div className='bio'>
           <img
-            className='bio-pic'
+            class='bio-pic'
             src={ProfilePic}
-            alt='profile pic'
+            alt='Joseph Martin'
           />
           <div className='bio-details'>
             <p>
             I am a lover of music, food, and all things tech. I've always had a drive to learn more about technology and have enjoyed digging deep into how things worked together,
-            especially web apps. I was told about NSS through a family friend and after some research knew it was the perfect place for me to grow my knowledge and build a
-            foundation in web development. I love the challenges web development brings. I enjoy solving complex problems while collaborating with others to design the best solution possible.
+            especially web apps. I was told about NSS through a family friend and after some research knew it was the perfect place for me to grow my knowledge and build a foundation
+            in web development. I love the challenges web development brings. I enjoy solving complex problems while collaborating with others to design the best solution possible.
             </p>
           </div>
-          <div className='tech'>
-            <h2 className='technologies'>Technologies</h2>
-          </div>
-          <ul>
+        </div>
+        <div className='tech'>
+          <h2 className='proficiencies'>Technologies</h2>
+        </div>
+        <ul>
             <p><img className='tech-pic' src={reactpng} alt='...'/>React</p>
             <p><img className='tech-pic' src={js} alt='...'/>Javascript ES6</p>
             <p><img className='tech-pic' src={html} alt='...'/>HTML5</p>
@@ -53,7 +58,12 @@ export default class Bio extends Component {
             <p><img className='tech-pic' src={lucidchart} alt='...'/>LucidChart</p>
             <p><img className='tech-pic' src={netlify} alt='...'/>Netlify</p>
           </ul>
-        </div>
+          <ul>
+            <p><img className='tech-pic' src={csharp} alt='...'/>C#</p>
+            <p><img className='tech-pic' src={dotnet} alt='...'/>.NET</p>
+            <p><img className='tech-pic' src={tsql} alt='...'/>T-SQL</p>
+          </ul>
+        <img className='footer-pic' src={splatter} alt='...'/>
       </>
     );
   }
