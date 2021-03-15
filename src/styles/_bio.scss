@@ -1,0 +1,47 @@
+.bio-pic {
+  width: 500px;
+  height: 400px;
+}
+
+.bio {
+  display: flex;
+  margin: 1%;
+}
+
+.bio-details {
+  text-align: left;
+}
+
+.bio-details {
+  width: 100%;
+  margin: auto 5% auto 5%;
+}
+
+.footer-pic {
+  height: 100%;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+}
+
+.proficiencies {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech-pic {
+  width: 50px;
+  height: 50px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul p {
+  margin: 12px;
+}

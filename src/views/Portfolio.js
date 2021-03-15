@@ -26,7 +26,6 @@ export default class Portfolio extends Component {
     );
     return (
       <div className='main'>
-        <h1 className='d-flex justify-content-center mt-3'>Portfolio</h1>
         <div>
           <div className='d-flex flex-wrap'>{renderProjects()}</div>
         </div>
