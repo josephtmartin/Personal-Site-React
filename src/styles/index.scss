@@ -1,11 +1,11 @@
 @import 'variables';
 @import 'header';
+@import 'projects';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
 
 body {
-  background-image: url(../images/background_image_white.jpg);
-}
-p {
-  font-size: 100px;
+  background-image: url(../images/grey-background.jpg);
+  font-family: 'Poppins', sans-serif;
 }
