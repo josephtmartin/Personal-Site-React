@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.scss';
 import { BrowserRouter as Router } from 'react-router-dom';
-import fbConnection from '../helpers/data/connection';
 
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Routes from '../helpers/Routes';
 
-fbConnection();
 export default class App extends React.Component {
   render() {
     return (
