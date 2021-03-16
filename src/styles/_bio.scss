@@ -1,6 +1,8 @@
 .bio-pic {
   width: 500px;
   height: 400px;
+  border-radius: 5%;
+  box-shadow: 1px 1px 100px #000;
 }
 
 .bio {
@@ -10,6 +12,7 @@
 
 .bio-details {
   text-align: left;
+  font-size: 20px;
 }
 
 .bio-details {
