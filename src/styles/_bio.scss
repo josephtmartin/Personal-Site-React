@@ -1,6 +1,8 @@
 .bio-pic {
   width: 500px;
   height: 400px;
+  border-radius: 5%;
+  box-shadow: 1px 1px 100px #000;
 }
 
 .bio {
@@ -9,12 +11,10 @@
 }
 
 .bio-details {
-  text-align: left;
-}
-
-.bio-details {
   width: 100%;
   margin: auto 5% auto 5%;
+  text-align: left;
+  font-size: 20px;
 }
 
 .footer-pic {
