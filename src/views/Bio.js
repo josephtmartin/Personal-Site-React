@@ -26,14 +26,14 @@ export default class Bio extends Component {
       <>
         <div className='bio'>
           <img
-            class='bio-pic'
+            className='bio-pic'
             src={ProfilePic}
             alt='Joseph Martin'
           />
           <div className='bio-details'>
             <p>
             I am a lover of music, food, and all things tech. I've always had a drive to learn more about technology and have enjoyed digging deep into how things worked together,
-            especially web apps. I was told about NSS through a family friend and after some research knew it was the perfect place for me to grow my knowledge and build a foundation
+            especially web apps. I heard about NSS through a family friend and after some research knew it was the perfect place for me to grow my knowledge and build a foundation
             in web development. I love the challenges web development brings. I enjoy solving complex problems while collaborating with others to design the best solution possible.
             </p>
           </div>
